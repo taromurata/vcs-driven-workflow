@@ -20,6 +20,7 @@ resource "aws_instance" "app_server" {
   tags = {
     Name = "vcs-driven-hands-on-demo"
     Owner = "taromurata"
+    Env = "Demo"
   }
 }
 
