@@ -21,7 +21,7 @@ resource "aws_instance" "app_server" {
     Name = "vcs-driven-hands-on-demo"
     Owner = "taromurata"
     Env = "Demo"
-    Changed = "2024-11-29"
+    Changed = "2024-11-28"
   }
 }
 
